@@ -22,6 +22,7 @@ source:
     - disable-failing-tests.patch
     # https://bugreports.qt.io/browse/PYSIDE-103
     - wrapinstance-overflow.patch
+    - win_pointer_conversation_fix.patch
 
 build:
   number: 7
